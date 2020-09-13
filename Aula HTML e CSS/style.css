@@ -40,7 +40,7 @@ ocupando o espaço que eles realmente necessitam*/
 .instagram-continue{
     display:flex;
     align-items: center; /*horizontal*/
-    justify-content: space - around; /*vertical*/
+    justify-content: space-around; /*vertical*/
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -71,7 +71,7 @@ ocupando o espaço que eles realmente necessitam*/
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    overflow: hidden;/* a imagem não exceder o tamanho da div p fora*/
+    overflow: hidden; /* a imagem não exceder o tamanho da div p fora*/
 }
 
 .profile-photo img{
@@ -86,8 +86,8 @@ ocupando o espaço que eles realmente necessitam*/
 }
 
 .instagram-logout{
-        color:#0095f6;
-        margin-top: 1rem;
+    color:#0095f6;
+    margin-top: 1rem;
 }
 
 .not-account{
@@ -105,4 +105,28 @@ ocupando o espaço que eles realmente necessitam*/
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;/*Deixa os nossos elementos com o mesmo espaço 
+    dos lados quanto do meio, vai ficar exatamente no centro*/
+    align-items: center;
+    padding:  1rem;
+    
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size:cover;
+}
+
+.app-download:nth-child(1){
+    background-image: url('./img/apple-button.png');
+}
+
+.app-download:nth-child(2){
+    background-image: url('./img/googleplay-button.png')
 }
