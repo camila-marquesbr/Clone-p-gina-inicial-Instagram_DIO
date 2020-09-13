@@ -24,7 +24,7 @@ ocupando o espaço que eles realmente necessitam*/
     display: flex;
     align-items: center;
     justify-content: start;
-    width: 60%;
+    width: 50%;
     height: 100vh;
 
 }
@@ -43,7 +43,7 @@ ocupando o espaço que eles realmente necessitam*/
     justify-content: space-around; /*vertical*/
     flex-direction: column;
     width: 50%;
-    min-height: 34rem;
+    min-height: 36rem;
 }
 
 .group{
