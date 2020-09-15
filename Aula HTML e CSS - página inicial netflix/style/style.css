@@ -12,10 +12,11 @@ para declarar podemos definir dentro do elemento root*/
     padding:0;
     box-sizing: border-box; /*o limite de tudo o que está dentro será a borda da caixa*/
 }
-
+/*elemento base*/
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 /*flex box - alinhar o elemento na tela. O flex box tem a tendencia de jogar tudo para linha*/
@@ -44,4 +45,10 @@ header nav a{
 /*Toda vez que o mouse estiver em cima, vou pintar ele dessa cor*/
 header nav a:hover{
     color:#fff;
+}
+
+/*Filme Principal*/
+.filme-principal{
+    font-size:16px;
+    background: url('/img/capa-house.jpg')
 }
