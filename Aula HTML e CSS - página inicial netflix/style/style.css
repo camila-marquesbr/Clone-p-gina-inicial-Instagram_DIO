@@ -104,3 +104,9 @@ header nav a:hover{
 .filme-principal .container{
 width: 70%;/*Quando a tela ficar minimizada ele tem uma definição de largura de no máximo 60%*/      
 }
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
