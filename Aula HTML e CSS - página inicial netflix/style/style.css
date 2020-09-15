@@ -1,0 +1,41 @@
+/*utilização de variaveis dentro do css3,
+para declarar podemos definir dentro do elemento root*/
+
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+/*fazer o reset da página*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /*o limite de tudo o que está dentro será a borda da caixa*/
+}
+
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif
+}
+
+header.container{
+    
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+/*Colocar a cor diferente quando passo o mouse*/
+/*Toda vez que o mouse estiver em cima, vou pintar ele dessa cor*/
+header nav a:hover{
+    color:#fff;
+}
