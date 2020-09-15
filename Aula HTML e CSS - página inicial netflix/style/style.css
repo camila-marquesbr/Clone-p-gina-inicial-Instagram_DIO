@@ -18,11 +18,17 @@ body{
     font-family: 'Times New Roman', Times, serif
 }
 
-header.container{
-    
+/*flex box - alinhar o elemento na tela. O flex box tem a tendencia de jogar tudo para linha*/
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;/*alinha de uma maneira vertical*/
+    justify-content: space-between;/*alinha de uma maneira horizontal*/
+
 }
 
 header .logo{
+    margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
