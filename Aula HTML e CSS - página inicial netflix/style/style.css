@@ -66,5 +66,20 @@ header nav a:hover{
 }
 
 .titulo{
+    margin-top: 20%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color:white;
+
+    padding: 15px 30px; /*4 valores = cima direita baixo esquerda
+    2 valores = baixo cima, esquerda e direita
+    1 valor = todos os cantos */
+
+    margin-right: 15px;
+    font-size: 12px;
 }
