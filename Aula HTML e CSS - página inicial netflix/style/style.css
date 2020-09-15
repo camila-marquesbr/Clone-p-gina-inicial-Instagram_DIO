@@ -6,7 +6,7 @@ para declarar podemos definir dentro do elemento root*/
     --preta:#141414;
 }
 
-/*fazer o reset da página*/
+/*usamos o * para fazer o reset da página*/
 *{
     margin:0;
     padding:0;
